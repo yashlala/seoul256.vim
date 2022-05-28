@@ -433,6 +433,9 @@ call s:hi('rubyPredefinedIdentifier', [230, 52], ['', ''])
 hi CursorLine cterm=NONE
 hi CursorLineNr cterm=NONE
 
+" TODO: Update? 
+hi WinSeparator guibg=None
+
 let g:seoul256_current_fg = [s:dark_fg, s:light_fg][s:style_idx]
 let g:seoul256_current_bg = [s:dark_bg, s:light_bg][s:style_idx]
 let g:colors_name = 'seoul256'
